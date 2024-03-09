@@ -204,6 +204,8 @@ address {
 }
 .team-title {
   padding-top: 120px;
+  padding-bottom: 120px;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -215,7 +217,6 @@ address {
 .team-list {
   gap: 24px;
   display: flex;
-  padding-top: 72px;
   padding-bottom: 120px;
 }
 .team-list-item {
@@ -311,6 +312,8 @@ address {
 /*               footer                      */
 
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #2e2f42;
 }
 .footer-span {
@@ -318,8 +321,7 @@ address {
 }
 
 .footer-logo {
-  padding-top: 100px;
-  display: block;
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -327,10 +329,9 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 .footer-text {
-  padding-top: 16px;
-  padding-bottom: 100px;
   max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
