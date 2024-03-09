@@ -31,10 +31,10 @@ a {
   color: currentColor;
 }
 address {
-  font-size: normal;
+  font-style: normal;
 }
 .container {
-  width: 1154px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -249,10 +249,29 @@ address {
 }
 .portfolio-item {
   width: calc((100% - 60px * 2) / 3);
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e7e9fc;
+  z-index: -1;
+}
+.portfolio-item img {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 1;
 }
 .portfolio-images {
 }
 .portfolio-images-title {
+  padding-left: 16px;
   padding-top: 32px;
   font-weight: 500;
   font-size: 20px;
@@ -261,6 +280,8 @@ address {
   color: #2e2f42;
 }
 .portfolio-images-text {
+  padding-bottom: 32px;
+  padding-left: 16px;
   padding-top: 8px;
   font-size: 16px;
   line-height: 1.5;
