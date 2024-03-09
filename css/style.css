@@ -201,10 +201,10 @@ address {
 
 .team {
   background-color: #f4f4fd;
-}
-.team-title {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.team-title {
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -217,10 +217,14 @@ address {
 .team-list {
   gap: 24px;
   display: flex;
-  padding-bottom: 120px;
+}
+.team-info {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-images {
 }
