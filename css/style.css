@@ -218,7 +218,7 @@ address {
   gap: 24px;
   display: flex;
 }
-.team-info {
+.team-information {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -229,7 +229,6 @@ address {
 .team-images {
 }
 .team-name-title {
-  padding-top: 32px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -240,7 +239,6 @@ address {
 }
 .team-specifics {
   padding-top: 8px;
-  padding-bottom: 32px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
