@@ -268,7 +268,6 @@ address {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  row-gap: 60px;
 }
 .portfolio-item {
   width: calc((100% - 48px) / 3);
